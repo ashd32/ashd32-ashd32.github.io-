@@ -126,15 +126,15 @@
                     <a href="https://github.com/ashd32/flycart" target="_blank">GitHub Repo</a>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="https://salutations.herokuapp.com/" target="_blank">
-                            <img class="img-fluid" src="img/portfolio/salutations.JPG" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Message Board App w/ MongoDB</h4>
-                            <p class="text-muted">Mongo Message App</p>
-                        </div>
-                        <a href="https://github.com/ashd32/salute" target="_blank">GitHub Repo</a>
+                    <a href="https://salutations.herokuapp.com/" target="_blank">
+                        <img class="img-fluid" src="img/portfolio/salutations.JPG" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Message Board App w/ MongoDB</h4>
+                        <p class="text-muted">Mongo Message App</p>
                     </div>
+                    <a href="https://github.com/ashd32/salute" target="_blank">GitHub Repo</a>
+                </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="https://matcher-v1.herokuapp.com/" target="_blank">
                         <img class="img-fluid" src="img/portfolio/matcher.png" alt="">
@@ -403,36 +403,60 @@
                                 </div>
                             </div>
                         </li>
+                        <li class="timeline-panel">
+                            <div class="timeline-body">
+
+                            </div>
+                            <div class="timeline-inverted">
+                                <div class="timeline-heading">
+                                    <h4>December 2018</h4>
+                                    <h4 class="subheading">Coding Boot Camp Graduation</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <img src="img/certificates/FullStackCert.JPG" style="max-width:500px" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
 
 
 
-                        <h2 class="w3-center">Continuous Development...</h2>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Continuous Development</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <div class="w3-content w3-section" style="max-width:500px">
+                                        <img class="mySlides" src="img/certificates/CommandAndConquerUC-NL0TYH78.jpg"
+                                            style="width:100%">
+                                        <img class="mySlides" src="img/certificates/JavascriptFundamentalsUC-L0HUJYLI.jpg"
+                                            style="width:100%">
+                                        <img class="mySlides" src="img/certificates/ReactBasicUC-5DGQHG0W.jpg" style="width:100%">
+                                        <img class="mySlides" src="img/certificates/MERN_UC-N4NB44U2.jpg" style="width:100%">
+                                    </div>
 
-                        <div class="w3-content w3-section" style="max-width:500px">
-                          <img class="mySlides" src="img/certificates/CommandAndConquerUC-NL0TYH78.jpg" style="width:100%">
-                          <img class="mySlides" src="img/certificates/JavascriptFundamentalsUC-L0HUJYLI.jpg" style="width:100%">
-                          <img class="mySlides" src="img/certificates/ReactBasicUC-5DGQHG0W.jpg" style="width:100%">
-                          <img class="mySlides" src="img/certificates/MERN_UC-N4NB44U2.jpg" style="width:100%">
-                        </div>
+                                    <script>
+                                        var slideIndex = 0;
+                                        carousel();
 
+                                        function carousel() {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides");
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            slideIndex++;
+                                            if (slideIndex > x.length) {
+                                                slideIndex = 1
+                                            }
+                                            x[slideIndex - 1].style.display = "block";
+                                            setTimeout(carousel, 2000); // Change image every 2 seconds
+                                        }
+                                    </script>
+                                </div>
+                            </div>
 
-                        <script>
-                        var slideIndex = 0;
-                        carousel();
-                        
-                        function carousel() {
-                          var i;
-                          var x = document.getElementsByClassName("mySlides");
-                          for (i = 0; i < x.length; i++) {
-                            x[i].style.display = "none"; 
-                          }
-                          slideIndex++;
-                          if (slideIndex > x.length) {slideIndex = 1} 
-                          x[slideIndex-1].style.display = "block"; 
-                          setTimeout(carousel, 2000); // Change image every 2 seconds
-                        }
-                        </script>
-
+                        </li>
 
                         <li class="timeline-inverted">
                             <div class="timeline-image">
