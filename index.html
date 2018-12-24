@@ -342,7 +342,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/shire.jpg" alt="">
+                                <img class="rounded-circle img-fluid" src="img/about/portfolio.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -403,6 +403,37 @@
                                 </div>
                             </div>
                         </li>
+
+
+
+                        <h2 class="w3-center">Continuous Development...</h2>
+
+                        <div class="w3-content w3-section" style="max-width:500px">
+                          <img class="mySlides" src="img/certificates/CommandAndConquerUC-NL0TYH78.jpg" style="width:100%">
+                          <img class="mySlides" src="img/certificates/JavascriptFundamentalsUC-L0HUJYLI.jpg" style="width:100%">
+                          <img class="mySlides" src="img/certificates/ReactBasicUC-5DGQHG0W.jpg" style="width:100%">
+                          <img class="mySlides" src="img/certificates/MERN_UC-N4NB44U2.jpg" style="width:100%">
+                        </div>
+
+
+                        <script>
+                        var slideIndex = 0;
+                        carousel();
+                        
+                        function carousel() {
+                          var i;
+                          var x = document.getElementsByClassName("mySlides");
+                          for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none"; 
+                          }
+                          slideIndex++;
+                          if (slideIndex > x.length) {slideIndex = 1} 
+                          x[slideIndex-1].style.display = "block"; 
+                          setTimeout(carousel, 2000); // Change image every 2 seconds
+                        }
+                        </script>
+
+
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <h4>To infinity
